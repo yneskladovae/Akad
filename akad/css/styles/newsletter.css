@@ -1,0 +1,108 @@
+.newsletter {
+    margin-top: 145px;
+    background-color: #7beec7;
+}
+
+.newsletter__container {
+    padding: 50px 0;
+    background-color: #7beec7;
+    display: flex;
+}
+
+.newsletter__subscribe-title {
+    font-size: 30px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+}
+
+.newsletter__container div {
+    width: 50%;
+}
+
+a.newsletter__subscribe-btn {
+    display: inline-block;
+    height: 50px;
+    min-width: 150px;
+    line-height: 50px;
+    border-radius: 0;
+    margin-top: 25px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #fff;
+    color: #7beec7;
+}
+
+.newsletter__form__blcok {
+    background-color: #fff;
+    padding: 30px;
+}
+
+span.newsletter__form-title {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+input.newsletter__form-input {
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #e9e9e9;
+    border-right: none;
+    font-size: 12px;
+    padding-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #cdcdcd;
+}
+
+form.newsletter__form {
+    display: flex;
+}
+
+button.newsletter__form-btn {
+    border: none;
+    height: 50px;
+    line-height: 50px;
+    min-width: 150px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0;
+    background-color: #7beec7;
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .newsletter__container {
+        display: block;
+    }
+    .newsletter__container div {
+        width: 100%;
+    }
+    .newsletter__subscribe__blcok {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .newsletter {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 320px) {
+    button.newsletter__form-btn {
+        min-width: 100px;
+    }
+}
