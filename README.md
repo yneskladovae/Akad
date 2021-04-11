@@ -1,3 +1,3 @@
 # Akad
 
-[https://yneskladovae.github.io/Akad/]
+[link](https://yneskladovae.github.io/Akad/)
